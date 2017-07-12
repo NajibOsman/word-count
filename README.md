@@ -22,7 +22,7 @@ In your Terminal:
 ## Technologies Used
  - Ruby v2.3.1
  - Bootstrap
- - HTML5
+ - HTML5 
  - RubyGems: rspec, sinatra , sinatra-contrib
 
 ## LICENSE
