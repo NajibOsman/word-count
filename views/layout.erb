@@ -15,13 +15,14 @@
     <link rel="stylesheet" type="text/css" href="/css/style.css">
     </head>
     <body>
-     <nav>
-    <div class="nav-wrapper">
-      <a href="/" class="brand-logo center">Word Counter</a>
-      <ul id="nav-mobile" class="left hide-on-med-and-down">
-      </ul>
-    </div>
-  </nav>
+      <nav class="#26a69a teal lighten-1">
+      <div class="nav-wrapper">
+        <a href="/" class="brand-logo center">Word counter</a>
+        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+        <ul class="side-nav" id="mobile-demo">
+          <li><a href="/">Home</a></li>
+        </ul>
+    </nav>
       <div class="container">
         <%= yield %>
       </div>
